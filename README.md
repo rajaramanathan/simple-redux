@@ -3,16 +3,16 @@ simple-redux is a fully functional implementation of the redux functionality wit
 
 ## simple-redux.js
 A fully functional implementation of the redux's 3 main features - createStore, bindActionCreators and connect. 
-### createStore
+### 1. createStore
 #### store
   Maintains the state. 
 #### dispatch
   Changes the state using the reducer and action provided. 
 #### subscriber
   Listen for state changes. 
-### bindActionCreators
+### 2. bindActionCreators
   Basically a helper function to create the map of props to dispatch functions. 
-### connect
+### 3. connect
   Brings everything together using the React JS pattern of provider/consumer and Container/Presentational component. 
 
 ## StoreDemo.js
